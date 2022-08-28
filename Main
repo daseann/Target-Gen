@@ -20,10 +20,10 @@ public class Selenium {
 		}
 		driver.findElement(By.id("accountNav-createAccount")).click();
 		driver.findElement(By.xpath(".//*[@id='username']")).sendKeys("test@daseanti.com");
-		driver.findElement(By.xpath(".//*[@id='firstname']")).sendKeys("Charlie");
-		driver.findElement(By.xpath(".//*[@id='lastname']")).sendKeys("Truong");
+		driver.findElement(By.xpath(".//*[@id='firstname']")).sendKeys("Joe");
+		driver.findElement(By.xpath(".//*[@id='lastname']")).sendKeys("Smith");
 		driver.findElement(By.xpath(".//*[@id='phone']")).sendKeys("123-456-7890");
-		driver.findElement(By.xpath(".//*[@id='password']")).sendKeys("kingkong123");
+		driver.findElement(By.xpath(".//*[@id='password']")).sendKeys("password123");
 		driver.findElement(By.id("createAccount")).click();
 
 
